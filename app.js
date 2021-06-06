@@ -1,10 +1,8 @@
 let sendButton = document.getElementById('send');
-//let resetButton = document.getElementById('reset');
 let form = document.getElementById('form');
 
-
 form.addEventListener('submit', function(e){
-    //e.preventDefault();
+   
 })
 
 //resetButton.addEventListener('click', function(){
@@ -15,7 +13,6 @@ form.addEventListener('submit', function(e){
     name.value = '';
     email.value = '';
     message.value = '';
-//})
 
 sendButton.addEventListener('click', function(e){
     let name = document.getElementById('name');
