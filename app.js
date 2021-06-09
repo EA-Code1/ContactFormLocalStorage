@@ -24,7 +24,6 @@ sendButton.addEventListener('click', function(e){
     name = name.value;
     localStorage.setItem('name', name);
 
-   
     
     email = email.value;
     localStorage.setItem('email', email);
