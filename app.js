@@ -1,13 +1,10 @@
 let sendButton = document.getElementById('send');
-//let resetButton = document.getElementById('reset');
 let form = document.getElementById('form');
 
 
 form.addEventListener('submit', function(e){
-    //e.preventDefault();
 })
 
-//resetButton.addEventListener('click', function(){
     let name = document.getElementById('name');
     let email = document.getElementById('email');
     let message = document.getElementById('message');
@@ -15,7 +12,6 @@ form.addEventListener('submit', function(e){
     name.value = '';
     email.value = '';
     message.value = '';
-//})
 
 sendButton.addEventListener('click', function(e){
     let name = document.getElementById('name');
@@ -36,4 +32,4 @@ sendButton.addEventListener('click', function(e){
     localStorage.setItem('message', message);
     
     
-})
+})  
