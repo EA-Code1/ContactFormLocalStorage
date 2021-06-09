@@ -1,8 +1,8 @@
 let sendButton = document.getElementById('send');
 let form = document.getElementById('form');
 
-
 form.addEventListener('submit', function(e){
+   
 })
 
     let name = document.getElementById('name');
@@ -32,4 +32,4 @@ sendButton.addEventListener('click', function(e){
     localStorage.setItem('message', message);
     
     
-})  
+})
