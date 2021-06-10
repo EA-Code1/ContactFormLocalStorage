@@ -1,7 +1,7 @@
 let sendButton = document.getElementById('send');
 let form = document.getElementById('form');
 
-// Takes text input of name, email and message
+// Takes text input of name, email and messagee
 form.addEventListener('submit', function(e){
    
 })
